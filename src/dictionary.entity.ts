@@ -25,4 +25,7 @@ export class Dictionary {
   })
   level: Levels;
 
+  @Column({ type: "jsonb", nullable: true })
+  alias;
+
 }

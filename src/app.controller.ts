@@ -1,5 +1,10 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post, Param, Body, HttpCode } from '@nestjs/common';
 import { AppService } from './app.service';
+
+export class CreateCatDto {
+  readonly content: string;
+}
+
 
 @Controller()
 export class AppController {
@@ -10,8 +15,9 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('parse')
-  parseContent(): any {
-    return this.appService.parseContent();
+  @Post('parse')
+  @HttpCode(200)
+  parseContent(@Body() createCatDto: CreateCatDto): any {
+    return this.appService.parseContent(createCatDto.content);
   }
 }
