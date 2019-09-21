@@ -1633,8 +1633,7 @@ injury n.损害，伤害；受伤处
 ink n.墨水，油墨 
 inn n.小旅店；小酒店 
 inner a.内部的；内心的 
-innocent a.清白的，幼稚的 
-无效 n.输入；投入的资金 
+innocent a.清白的，幼稚的 无效 n.输入；投入的资金 
 inquire vt.打听，询问；调查 
 inquiry n.询问，打听；调查 
 insect n.昆虫，虫 
@@ -1859,8 +1858,7 @@ load vt.装；装满 n.负载
 loaf n.一条面包，一个面包 
 loan n.贷款；暂借 vt.借出 
 local a.地方的；局部的 
-locate vt.探明，找出，查出 
-本地 n.位置，场所 
+locate vt.探明，找出，查出 本地 n.位置，场所 
 lock n.锁 vt.锁上，锁住 
 locomotive n.火车头，机车
 lodge vi.暂住，借宿，投宿 
@@ -2635,7 +2633,7 @@ reflect vt.反射；反映；思考
 reflection n.反射；映象；反映 
 reflexion n.反射；映象；反映 
 reform vt.&n.改革，改良 
-refresh刷新 vt.使清新vi.恢复精神 
+refresh 刷新 vt.使清新vi.恢复精神 
 refreshment n.茶点，点心，便餐 
 refrigerator n.冰箱，冷藏库 
 refuge n.避难，庇护；庇护者 
