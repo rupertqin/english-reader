@@ -18,6 +18,12 @@ export class Dictionary {
   @Column()
   desc: string;
 
+  @Column({nullable: true})
+  youdao: string;
+
+  @Column({ type: "text", nullable: true })
+  pronounce: string;
+
   @Column({
     type: 'enum',
     enum: Levels,
@@ -25,7 +31,7 @@ export class Dictionary {
   })
   level: Levels;
 
-  @Column({ type: "jsonb", nullable: true })
+  @Column({ type: "simple-array", nullable: true })
   alias;
 
 }
